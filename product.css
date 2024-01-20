@@ -1,0 +1,75 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(116, 88, 199);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 375px;
+    height: 520px;
+    background: hsl(0, 29%, 10%);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.container form{
+    width: 100%;
+    border: 1px solid rgb(194, 193, 210);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.container form i{
+    
+    color: #f5f2f2;
+    margin:10px;
+   
+}
+.product-list{
+    padding: 20px 0;
+}
+.Product{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Product img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit:cover;
+}
+.Product .p-details{
+    padding: 30px;
+}
+.Product .p-details h2{
+    font-size: 20px;
+    color: #f5f2f2;
+}
+.Product .p-details h3{
+    font-size: 15px;
+    color: #f5f2f2;
+}
